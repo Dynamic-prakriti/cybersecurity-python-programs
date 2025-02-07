@@ -1,0 +1,4 @@
+log_data = """ 
+Feb 1 12:05:32 server sshd[12345]: Failed password for root from 192.168.1.10 port 22
+Feb 1 12:06:40 server sshd[12346]: Failed password for root from 192.168.1.15 port 22
+"""
