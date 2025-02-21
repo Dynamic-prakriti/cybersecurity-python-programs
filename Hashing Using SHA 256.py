@@ -10,9 +10,6 @@ hashed_password = hash_password(password)
 print(f"Hashed Password: {hashed_password}")
 
 
-
-
-
 '''
 Hashes a password using SHA-256 
 to securely store and compare passwords.
