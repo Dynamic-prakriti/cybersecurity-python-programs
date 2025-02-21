@@ -22,8 +22,8 @@ A collection of beginner-friendly cybersecurity projects written in Python. Thes
 
 ### ** Clone This Repository**
 ```sh
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/Dynamic-prakriti/cybersecurity-python-programs.git
+cd Path_to_the_repository
 
 
 ### ** To run script**
