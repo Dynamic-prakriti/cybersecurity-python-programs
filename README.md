@@ -16,6 +16,8 @@ A collection of beginner-friendly cybersecurity projects written in Python. Thes
 ✅ **Simple Port Scanner** - Scans open ports on a target machine to identify vulnerabilities.  
 ✅ **Simple Keylogger** - Logs keystrokes (for ethical testing and research purposes only).  
 ✅ **Wordlist Generator** - Generates wordlists for security testing and password cracking simulations.  
+✅ **Password Strength Checker** – Evaluates password complexity based on security best practices.
+✅ **File Integrity Checker** – Detects unauthorized file modifications using SHA-256 hashing.
 
 ---
 
