@@ -2,24 +2,31 @@ Cybersecurity Beginner Python Projects
 
 A collection of beginner-friendly cybersecurity projects written in Python. These projects help learners understand key security concepts like encryption, password security, brute-force attacks, packet sniffing, and log analysis.
 
-**Disclaimer:** This repository is strictly for **educational purposes only**. Do not use these tools for unethical or illegal activities.  
 
----
+### 📂Project Categories
+####  **Encryption & Hashing**
+- [Caesar Cipher](Encryption-Hashing/Caesar_Cipher.py) – Encrypts and decrypts messages using the Caesar cipher.
+- [Hashing Using SHA-256](Encryption-Hashing/Hashing_Using_SHA_256.py) – Demonstrates secure hashing technique.
+- [Password Strength Checker](Encryption-Hashing/Password_Strength_Checker.py) – Evaluates password complexity.
 
-## 📂 **Project List**  
-✅ **Brute Force Attack Simulator** - Simulates password brute-force attacks.  
-✅ **Caesar Cipher** - Encrypts and decrypts messages using the Caesar cipher.  
-✅ **Hashing Using SHA-256** - Demonstrates secure hashing techniques.  
-✅ **Log Analysis** - Parses and analyzes system logs for security monitoring.  
-✅ **Packet Sniffer Using Scapy** - Captures network packets for ethical hacking and security analysis.  
-✅ **Password Checker** - Checks password strength and compares against known breaches.  
-✅ **Simple Port Scanner** - Scans open ports on a target machine to identify vulnerabilities.  
-✅ **Simple Keylogger** - Logs keystrokes (for ethical testing and research purposes only).  
-✅ **Wordlist Generator** - Generates wordlists for security testing and password cracking simulations.  
-✅ **Password Strength Checker** – Evaluates password complexity based on security best practices.
-✅ **File Integrity Checker** – Detects unauthorized file modifications using SHA-256 hashing.
+####  **Network Security**
+- [Packet Sniffer](Network-Security/Packet_Sniffer_Using_Scapy.py) – Captures network packets for analysis.
+- [Simple Port Scanner](Network-Security/Simple_Port_Scanner.py) – Scans open ports.
+- [Wordlist Generator](Network-Security/WordlistGenerator.py) – Generates wordlists for security testing.
 
----
+####  **Authentication Security**
+- [Brute Force Attack Simulator](Authentication-Security/Brute_Force_Attack_Simulator.py) – Simulates password brute-force attacks.
+- [Password Checker](Authentication-Security/Password_Checker.py) – Checks password strength and breaches.
+- [Simple Keylogger](Authentication-Security/Simple_Keylogger.py) – Logs keystrokes (for ethical research).
+
+####  **Log Analysis & Detection**
+- [Log Analysis](Log-Analysis-Detection/Log_Analysis.py) – Parses system logs for security monitoring.
+- [File Integrity Checker](Log-Analysis-Detection/File_Integrity_Checker.py) – Detects unauthorized file changes.
+
+####  **Data Files**
+- `Data/keylog.txt`
+- `Data/logs.txt`
+- `Data/wordlist.txt`
 
 
 ### ** Clone This Repository**
