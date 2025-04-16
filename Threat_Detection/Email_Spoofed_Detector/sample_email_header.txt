@@ -1,0 +1,17 @@
+From: support@help.net 
+Reply-To: helpdesk@gmail.com
+Return-Path: admin@sp00f.com
+Subject: Urgent Account Notice!
+Date: Thu, 12 Apr 2024 01:15:00 +0000
+
+From: hello@gmail.com
+Reply-To: hello@gmail.com
+Return-Path: abc@sp00f.com
+Subject: Urgent Account Notice!
+Date: Thu, 12 Apr 2024 01:15:00 +0000
+
+From: hello@gmail.com
+Reply-To: hello@gmail.com
+Return-Path: hello@gmail.com
+Subject: Urgent Account Notice!
+Date: Thu, 12 Apr 2024 01:15:00 +0000
