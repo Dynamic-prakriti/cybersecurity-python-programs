@@ -12,7 +12,6 @@ This Python tool analyzes email headers to detect **spoofing attempts** based on
 
 ## How It Works
 
-- We’ll use the `argparse` module to accept input header files from the command line.
 - Parses email headers using Python's built-in `email.parser`.
 - Extracts sender domains from `From`, `Reply-To`, and `Return-Path`.
 - Compares domains against trusted sources.
