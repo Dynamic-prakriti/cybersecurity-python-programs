@@ -23,10 +23,15 @@ A collection of beginner-friendly cybersecurity projects written in Python. Thes
 - [Log Analysis] – Parses system logs for security monitoring.
 - [File Integrity Checker] – Detects unauthorized file changes.
 
+###  **Threat Detection**
+- [Email Spoof Detector] – Parses and detects spoofing across multiple email headers in a single file.
+
 ####  **Data Files**
 - `Data/keylog.txt`
 - `Data/logs.txt`
 - `Data/wordlist.txt`
+- `Threat_Detection/Email_Spoofed_Detector/sample_email_header.txt`
+
 
 
 ### ** Clone This Repository**
