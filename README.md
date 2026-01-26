@@ -13,6 +13,15 @@ A collection of beginner-friendly cybersecurity projects written in Python. Thes
 - [Packet Sniffer] – Captures network packets for analysis.
 - [Simple Port Scanner] – Scans open ports.
 - [Wordlist Generator] – Generates wordlists for security testing.
+##### Wordlist Generator – Usage
+This tool provides an **interactive, prompt-based CLI** similar to `crunch` and `pycrunch`.
+
+The tool asks the user a series of questions (such as minimum and maximum word length, character set selection, and output file name) and generates a custom wordlist based on the answers.
+
+###### Run from repository root
+```sh
+python Wordlist_Generator/wordlist_generator.py
+	
 
 ####  **Authentication Security**
 - [Brute Force Attack Simulator] – Simulates password brute-force attacks.
