@@ -13,7 +13,14 @@ def port_scan(target, ports):
 # User Input
 target_ip = input("Enter target IP or domain: ")
 ports = input("Enter comma-separated ports to scan (e.g., 22,80,443): ")
-ports = [int(port.strip()) for port in ports.split(",")]
+try:
+    ports = [int(port.strip()) for port in ports.split(",")]
+    if not all(1 <= p <= 65535 for p in ports):
+        print("Error: Ports must be between 1 and 65535.")
+        exit(1)
+except ValueError:
+    print("Error: Please enter valid integers for ports.")
+    exit(1)
 
 # Run scanner
 port_scan(target_ip, ports)
