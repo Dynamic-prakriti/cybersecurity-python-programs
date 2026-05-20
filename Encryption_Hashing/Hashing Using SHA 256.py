@@ -1,24 +1,21 @@
-import hashlib
+import bcrypt
 
 def hash_password(password):
-    return hashlib.sha256(password.encode()).hexdigest()
+    salt = bcrypt.gensalt()
+    return bcrypt.hashpw(password.encode(), salt)
+
+def verify_password(password, hashed):
+    return bcrypt.checkpw(password.encode(), hashed)
 
 # User Input
 password = input("Enter password to hash: ")
 hashed_password = hash_password(password)
 
-print(f"Hashed Password: {hashed_password}")
+print(f"Hashed Password: {hashed_password.decode()}")
 
-
-'''
-Hashes a password using SHA-256 
-to securely store and compare passwords.
-
-Algorithm Steps:
-
-Take user input (password).
-Convert the password into bytes using .encode().
-Apply SHA-256 hashing using hashlib.sha256().
-Convert the hashed value into a readable hex format using .hexdigest().
-Display the hashed password.
-'''
+# Verify
+check = input("Re-enter password to verify: ")
+if verify_password(check, hashed_password):
+    print("Password match!")
+else:
+    print("Password does not match.")
